@@ -1,0 +1,25 @@
+---
+alwaysApply: true
+---
+
+# Design Philosophy (Cursor Rule)
+
+## When generating UI, CSS, layout, or interactive behavior:
+- Always follow the principles in `/context/design_philosophy.md`.
+- Default to black and white. Use color only in rare, meaningful situations.
+- Preserve negative space. Avoid clutter and decorative noise.
+- Keep text small and elegant unless emphasis is required.
+- Honor Kenya Hara–style minimalism: clean, empty, subtle.
+
+## When proposing UI components or layouts:
+- Prioritize calm, breathable layouts.
+- Light/dark mode must be symmetrical in tone.
+- Interactions should feel soft, smooth, and intentional.
+
+## When generating markup tool features:
+- Brush strokes must be auto-smoothed to look refined.
+- Pages combine text + brush strokes + background.
+- Maintain aesthetic consistency between light and dark themes.
+
+## When generating or modifying any user-facing content:
+- The vibe should remain minimalist, contemplative, and timeless.
