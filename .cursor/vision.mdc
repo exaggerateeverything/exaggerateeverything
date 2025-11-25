@@ -1,0 +1,34 @@
+---
+alwaysApply: true
+---
+
+# Vision (Cursor Rule)
+
+## When generating features, architecture, or UX:
+- Always align with the platform vision described in `/context/vision.md`.
+- This project is an art-focused platform for sharing wisdom, not typical social media.
+- Prioritize simplicity, quietness, and minimal interaction noise.
+- The experience should feel dreamlike and spontaneous (floating pages, gentle movement).
+
+## When generating backend or workflow logic:
+- Support text uploads, manual entry, and an optional AWS SMS pipeline.
+- Store quotes and user messages in DynamoDB.
+- Respect the Tao Te Ching–inspired character limit.
+- Enable personalization: “How are you feeling today?” affects what is shown.
+
+## When designing interaction systems:
+- Implement a Dark Souls–style upvote system.
+- Implement private “pings” visible only to the receiver.
+- Include light moderation (slur filtering).
+
+## When generating brush or canvas features:
+- Auto-smooth strokes to produce elegant writing.
+- Maintain separate black and white theme versions.
+
+## When dealing with algorithms:
+- Consider multiple content-display algorithms.
+- Pages should float, drift, and feel spontaneous.
+
+## When interpreting project goals:
+- Favor human expression over AI-generated content.
+- Maintain the platform’s aesthetic and emotional tone at all times.

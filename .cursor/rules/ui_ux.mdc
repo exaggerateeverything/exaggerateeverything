@@ -1,0 +1,37 @@
+---
+alwaysApply: true
+---
+
+# UI / UX Rules (Cursor)
+
+## General
+- Always adhere to the minimal, black-and-white, Kenya Hara–inspired aesthetic from `/context/ui_ux.md`.
+- Avoid clutter. Avoid color. Avoid gradient-heavy or pattern-based designs.
+- Favor heavy negative space and small, elegant typography.
+
+## Layout
+- Use clean, restrained layouts.
+- Do not introduce unnecessary UI elements, boxes, borders, or shadows.
+- Instead rely on spacing, contrast, and alignment.
+
+## Page Display
+- Floating pages must animate subtly.
+- No spring physics, jiggle animations, or noisy transitions.
+- drifting, fading, or gently moving elements are acceptable.
+
+## Writing Experience
+- Use minimal toolbars and controls.
+- The brush tool must be smoothed and corrected for elegance.
+- Maintain separate black/white theme versions.
+
+## Interactions
+- Upvotes must be subtle and symbolic (Dark Souls style).
+- Private pings are visible only to the receiver.
+- Prevent AI-generated content unless explicitly allowed.
+
+## Navigation
+- Keep navigation extremely minimal.
+- Prioritize simplicity and conceptual clarity.
+
+## Tone
+- The UX should feel contemplative, calm, and intentional.
