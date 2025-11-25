@@ -1,0 +1,28 @@
+---
+alwaysApply: true
+---
+
+# Fonts Context (MDC)
+
+GOAL:
+Typography must be completely flexible. The system must support dynamic font swapping, Google Fonts integration, and custom user-uploaded fonts. Defaults must remain clean and minimal.
+
+REQUIREMENTS:
+- Provide centralized font loading (Google Fonts + custom fonts).
+- Allow per-component or global hot swapping of fonts.
+- Allow custom uploaded fonts (TTF/OTF/WOFF/WOFF2).
+- Keep Tailwind font configuration clean, minimal, and extensible.
+- Maintain the minimalist design philosophy (calm, clear, functional).
+- Avoid hardcoded typography. All font choices must be overridable.
+- Ensure accessibility: readable size defaults and scalable line height.
+
+IMPLEMENTATION NOTES:
+- Use Tailwind’s theme.fontFamily with named tokens.
+- Consider @fontsource or Google Fonts CSS import for fast swapping.
+- For user fonts, support upload -> storage -> @font-face generation.
+- Keep font tooling consistent across Laravel, React, Tailwind, and Inertia.
+
+AI BEHAVIOR:
+- When generating UI, assume typography is fluid.
+- Prefer references to the defined font tokens instead of direct font names.
+- When suggesting UI variations, AI may propose alternative fonts but must remain minimal and aligned with the core design philosophy.
